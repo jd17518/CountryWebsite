@@ -1,0 +1,41 @@
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    align-items: center;
+justify-content: center;
+padding: 10px;
+background-color: rgb(255, 0, 0);
+}
+nav>ul>li {
+    padding: 10px;
+    
+}
+
+nav>ul>li:hover {
+    background-color: rgb(179, 1, 1);
+}
+nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+#active {
+    background-color: blue;
+}
+header {
+    background-image: url(images/banner.webp);
+    height: 300px;
+    width: 1000px;
+    margin: auto;
+
+}
+#headnggs {
+     text-align: center;
+    font-size: 40pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+
+}
+body {
+    background-color: #a0d8b3;
+}
