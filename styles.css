@@ -5,7 +5,7 @@ nav>ul {
     align-items: center;
 justify-content: center;
 padding: 10px;
-background-color: rgb(255, 0, 0);
+background-color: rgb(221, 143, 143);
 }
 nav>ul>li {
     padding: 10px;
@@ -13,14 +13,14 @@ nav>ul>li {
 }
 
 nav>ul>li:hover {
-    background-color: rgb(179, 1, 1);
+    background-color: rgb(1, 179, 4);
 }
 nav>ul>li>a {
     text-decoration: none;
     color: white;
 }
 #active {
-    background-color: blue;
+    background-color: rgb(136, 236, 144);
 }
 header {
     background-image: url(images/banner.webp);
@@ -38,4 +38,7 @@ header {
 }
 body {
     background-color: #a0d8b3;
+}
+p{
+    font-size: 32;
 }
