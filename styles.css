@@ -13,14 +13,14 @@ nav>ul>li {
 }
 
 nav>ul>li:hover {
-    background-color: rgb(1, 179, 4);
+    background-color: rgb(235, 150, 4);
 }
 nav>ul>li>a {
     text-decoration: none;
     color: white;
 }
 #active {
-    background-color: rgb(136, 236, 144);
+    background-color: rgb(45, 28, 151);
 }
 header {
     background-image: url(images/banner.webp);
@@ -37,8 +37,20 @@ header {
 
 }
 body {
-    background-color: #a0d8b3;
+    background-color: #d2d0b3;
 }
-p{
+p {
     font-size: 32;
+}
+
+.footer-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-flex>div {
+    margin: auto;
+}
+footer {text-align: center;
 }
